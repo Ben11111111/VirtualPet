@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>Title</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles.css">
+		<script src="processing.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Monkey</h1>
+		</header>
+			<section id="content">
+				<canvas id="VirtualPet" data-processing-sources="VirtualPet.pde">
+				</canvas>
+		    </section>
+	    <footer>
+		    Footer
+	    </footer>
+	</body>
+</html>
 void setup()
 {
 size(500,500);
